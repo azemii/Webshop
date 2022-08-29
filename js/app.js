@@ -11,14 +11,13 @@ const carousel = document.querySelector(".carousel");
  * Retrive all the products from the webshop API
  */
 async function getProducts() {
-  const data = await fetch(
+    await fetch(
     "https://webshop.wm3.se/api/v1/shop/products.json?media_file=true"
   )
     .then(checkStatus)
     .then((data) => data.json())
     .then(createAndDisplayProducts)
     .catch(displayErrorMessage);
-
 }
 /**
  * Sends a GET request to the product database with the given search term.
@@ -28,7 +27,7 @@ async function searchProduct(searchTerm) {
   if (searchTerm === "") {
     getProducts();
   } else {
-    const data = await fetch(
+    await fetch(
       `https://webshop.wm3.se/api/v1/shop/products/search.json?q=${searchTerm}&media_file=true`
     )
       .then(checkStatus)
