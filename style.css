@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@400;700&display=swap');
+
+
+/* ==================================
+* Carousel 
+   ===================================*/
+.carousel-caption {
+    bottom: 10vw;
+    left: 10vw;
+    text-align: left;
+}
+
+.buy-now {
+    margin-right:1.4rem ;
+}
+
+.display-1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.carousel-item {
+    width: 100%;
+}
+.img-carousel { 
+    min-width: 700px;
+    /* transform: scale(.6); */
+
+}
+
+
+/* ==================================
+   Product
+=====================================*/
+.card-title-shoe {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+/* ==================================
+   Banner
+=====================================*/
+.card-img-overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+.banner-card {
+    border: 0;
+}
+.card-img {
+    border-radius: 0%;
+}
+.card-title-banner {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+.card-text-banner {
+    font-family: 'Lato', sans-serif;
+    font-size: .8rem;
+    line-height: 2;
+}
+.card-link-banner{
+    color: white;
+}
+.card-link-banner:hover {
+    color: rgb(196, 196, 196);
+}
+
+
+
+/* ==================================
+    Media Queries
+=====================================*/
+
+/* Main content */
+@media screen and (min-width: 1200px) {
+    .products {
+        max-width: 55%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .products {
+        max-width: 65%;
+    }
+    .banner {
+        max-width: 61%;
+    }
+    .card-title-shoe{
+        font-size: .7rem;
+    }
+}
+/* Reduce the text size once the screen gets bigger */
+@media screen and (min-width: 1200px) {
+    .card-text-banner {
+        font-size: .6rem;
+    }
+}
+
+
+@media (max-width: 768px) { 
+    .carousel .carousel-inner .item {
+        height: 500px;
+    }
+}
+
+@media screen and (min-width:576px) {
+    .display-1{
+        font-size: 3rem;
+    }
+}
+@media screen and (min-width:768px) {
+    .display-1{
+        font-size: 4rem;
+    }
+}
+@media screen and (min-width:992px) {
+    .display-1{
+        font-size: 5rem;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .display-1{
+        font-size: 6.5rem;
+    }
+}
