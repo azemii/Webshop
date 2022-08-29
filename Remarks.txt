@@ -1,7 +1,0 @@
-1. Control buttons at the bottom of the carousel are not dots
-2. Control buttons at the bottom of the carousel do not have lines between them
-3. Product images are larger (white space below the actual product) than the example image
-4. Product Lebron XIII limited does not have white space under product, making the product card smaller than the rest.
-5. Carousel img not displaying the shoes properly on smaller screen sizes.
-6. Questionable sizing of the banner at the bottom of the page.
-
