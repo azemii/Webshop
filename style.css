@@ -24,6 +24,11 @@
 .img-carousel {
   min-width: 700px;
 }
+.carousel .carousel-indicators button {
+    width: 10px;
+   height: 10px;
+   border-radius: 100%;
+ }
 
 /* ==================================
    Product
